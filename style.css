@@ -6,3 +6,8 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
+
+
+time {
+    font-weight: bold;
+  }
