@@ -1,5 +1,6 @@
 /* Welcome! */
 
+/*Background image*/
 body {
     background-image: url('dark-halloween-1443867.jpg');
     background-repeat: no-repeat;
@@ -7,7 +8,30 @@ body {
     background-size: cover;
 }
 
-
+/* Makes dates bold */
 time {
     font-weight: bold;
   }
+
+  /* Makes the made by Harry part have a border */
+    p#w3-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background: royalblue;
+    padding: 20px; 
+    width: 250px;
+    height: 60px;
+    position: fixed; 
+    right: 0; 
+    bottom: 0; 
+}
+
+img#skeleton {
+    position: absolute;
+  right: 0px;
+  height: 125px;
+  width: 145px;
+  padding: 10px;
+}
