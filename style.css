@@ -1,5 +1,7 @@
 /* Welcome! */
 
+/* index.html */
+
 /*Background image*/
 body {
     background-image: url('dark-halloween-1443867.jpg');
@@ -28,10 +30,14 @@ time {
     bottom: 0; 
 }
 
-img#skeleton {
-    position: absolute;
-  right: 0px;
-  height: 125px;
+#skeleton-img {
   width: 145px;
-  padding: 10px;
+  height: 125px;
+}
+
+/* Puts the copyright link at the bottom of the page*/
+#copyright-index  {
+  position: absolute;
+  bottom: 15px;
+  right: 600px;
 }
